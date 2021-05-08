@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>表头固定</title>
+    <style>
+        .abc{
+            border: none;
+        }
+        table tbody {
+            display:block;
+            height:200px;
+            width: 900px;
+            overflow-y:scroll;
+        }
+
+        table thead, tbody tr {
+            display:table;
+            width:100%;
+            table-layout:fixed;
+        }
+        table thead, tbody tr td {
+            width: 200px;
+        }
+
+        table thead {
+            width: calc( 100% - 1em )
+        }
+        table thead th{ background:#ccc;}
+    </style>
+</head>
+
+<body>
+<table class="abc" width="60%" border="1" >
+    <thead>
+    <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+        <td>444</td>
+        <td>555</td>
+    </tr>
+    <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+        <td>444</td>
+        <td>555</td>
+    </tr>
+    <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+        <td>444</td>
+        <td>555</td>
+    </tr>
+    <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+        <td>444</td>
+        <td>555</td>
+    </tr>
+    <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+        <td>444</td>
+        <td>555</td>
+    </tr>
+    <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+        <td>444</td>
+        <td>555</td>
+    </tr><tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+        <td>444</td>
+        <td>555</td>
+    </tr>
+    <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+        <td>444</td>
+        <td>555</td>
+    </tr>
+    <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+        <td>444</td>
+        <td>555</td>
+    </tr>
+    <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+        <td>444</td>
+        <td>555</td>
+    </tr><tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+        <td>444</td>
+        <td>555</td>
+    </tr>
+    <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+        <td>444</td>
+        <td>555</td>
+    </tr>
+    <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+        <td>444</td>
+        <td>555</td>
+    </tr>
+    <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+        <td>444</td>
+        <td>555</td>
+    </tr>
+
+    </tbody>
+</table>
+</body>
+</html>
